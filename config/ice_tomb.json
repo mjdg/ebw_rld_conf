@@ -13,132 +13,25 @@
 	},	"tower" : {
 		"type" : "RUIN",
 		"theme" : {
-			"base" : "PYRAMID",
-			"primary" : {
-				"walls" : {					"name": "quark:snow_bricks", "meta": 0
-				},				"floor": {					"name": "minecraft:snow", "meta": 0				},				"stair" : {					"name": "quark:snow_bricks_stairs"				}
-			},			"secondary": {
-				"walls" : {
-					"name": "biomesoplenty:hard_ice", "meta": 0
-				},
-				"floor": {
-					"name": "minecraft:snow", "meta": 0
-				},
-				"stair" : {
-					"name": "quark:snow_bricks_stairs"
-				}			}
+			"base" : "PYRAMID"
 		}
 	},
 	"themes" : [
 		{			"level" : 0,
-			"base" : "SNOW",			"primary" : {
-				"walls" : {
-					"name": "quark:snow_bricks", "meta": 0
-				},
-				"floor": {
-					"name": "minecraft:snow", "meta": 0
-				},
-				"stair" : {
-					"name": "quark:snow_bricks_stairs"
-				}
-			},
-			"secondary": {
-				"walls" : {
-					"name": "quark:snow_bricks", "meta": 0
-				},
-				"floor": {
-					"name": "minecraft:snow", "meta": 0
-				},
-				"stair" : {
-					"name": "quark:snow_bricks_stairs"
-				}
-			}
+			"base" : "SNOW"
 		},
 		{			"level" : 1,
-			"base" : "SNOW",			"primary" : {
-				"walls" : {
-					"name": "quark:snow_bricks", "meta": 0
-				},
-				"floor": {
-					"name": "chisel:ice", "meta": 0
-				},
-				"stair" : {
-					"name": "quark:snow_bricks_stairs"
-				}
-			},
-			"secondary": {
-				"walls" : {
-					"name": "minecraft:snow", "meta": 0
-				},
-				"floor": {
-					"name": "chisel:ice", "meta": 1
-				},
-				"stair" : {
-					"name": "quark:snow_bricks_stairs"
-				}
-			}
+			"base" : "SNOW"
 		},
 		{			"level" : 2,
-			"base" : "ICE",			"primary" : {				"pillar" : {
-					"name" : "chisel:icepillar",
-					"meta" : 0
-				},				"floor": {
-					"name": "chisel:ice1", "meta": 15
-				},				"stair" : {
-					"name": "quark:snow_bricks_stairs"
-				}			}, 			"secondary": {
-				"pillar" : {
-					"name" : "chisel:icepillar",
-					"meta" : 1
-				},
-				"floor": {
-					"name": "chisel:ice1", "meta": 15
-				},
-				"stair" : {
-					"name": "quark:snow_bricks_stairs"
-				}
-			}
+			"base" : "ICE"
 		},
 		{
-			"level": 3,			"base" : "ICE",			"primary" : {				"pillar" : {
-					"name" : "chisel:icepillar",
-					"meta" : 4
-				},
-				"floor": {					"name": "biomesoplenty:hard_ice", "meta": 0
-				},				"walls": {					"name": "minecraft:packed_ice", "meta": 0				},				"stair": {					"name": "appliedenergistics2:chiseled_quartz_stairs"				}			},			"secondary" : {
-				"pillar" : {
-					"name" : "chisel:icepillar",
-					"meta" : 5
-				},
-				"floor": {
-					"name": "biomesoplenty:hard_ice", "meta": 0
-				},
-				"walls": {
-					"name": "minecraft:packed_ice", "meta": 0
-				},
-				"stair": {
-					"name": "appliedenergistics2:quartz_pillar_stairs"
-				}
-			}
+			"level": 3,			"base" : "ICE"
 		},
 		{
 			"level" : 4,
-			"base" : "CRYPT",			"primary" : {				"liquid" : { 					"name" : "thermalfoundation:fluid_cryotheum",					"meta" : 0				}
-			},			"secondary" : {
-				"liquid" : { 
-					"name" : "thermalfoundation:fluid_cryotheum",
-					"meta" : 0
-				}
-			}
+			"base" : "CRYPT"
 		}
-	],	"spawners" : [		{			"type" : "SKELETON",			"potentials" : [
-				{"name" : "thermalfoundation:blizz"}
-			],
-			"level" : [4]
-		}
-	],	"rooms" : [
-		{"level" : 4, "type" : "single", "name" : "OBSIDIAN"},
-		{"level" : 4, "type" : "single", "name" : "DARKHALL"},
-		{"level" : 4, "type" : "random", "name" : "SPIDER", "weight" : 1},		{"level" : 4, "type" : "random", "name" : "CRYPT", "weight" : 1},		{"level" : 4, "type" : "random", "name" : "PRISON", "weight" : 1},		{"level" : 4, "type" : "random", "name" : "OSSUARY", "weight" : 1}
 	]
 }
