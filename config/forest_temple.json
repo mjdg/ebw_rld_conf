@@ -1,0 +1,38 @@
+{
+	"exclusive" : true,
+	"name" : "forest_temple",
+	"inherit" : [
+		"builtin:desert",
+		"mjd:loot",		"forest_temple:ebw_loot"
+	],
+	"criteria" : {
+		"biomeTypes" : [
+			"FOREST"
+		],
+		"weight" : 1000
+	},	"tower" : {
+		"type" : "JUNGLE",
+		"theme" : {
+			"base" : "JUNGLE"
+		}
+	},
+	"themes" : [
+		{			"level" : 0,
+			"base" : "JUNGLE"
+		},
+		{			"level" : 1,
+			"base" : "JUNGLE"
+		},
+		{			"level" : 2,
+			"base" : "MOSSY"
+		},
+		{
+			"level": 3,
+			"base" : "MUDDY"
+		},
+		{
+			"level" : 4,
+			"base" : "CAVE"
+		}
+	]
+}

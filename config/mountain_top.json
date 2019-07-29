@@ -1,0 +1,37 @@
+{
+	"exclusive" : true,
+	"name" : "mountain_top",
+	"inherit" : [
+		"builtin:desert",
+		"mjd:loot",		"mountain_top:ebw_loot"	],
+	"criteria" : {
+		"biomeTypes" : [
+			"MOUTAIN"
+		],
+		"weight" : 1000
+	},	"tower" : {
+		"type" : "ENIKO",
+		"theme" : {
+			"base" : "ENIKO"
+		}
+	},
+	"themes" : [
+		{			"level" : 0,
+			"base" : "ENIKO"
+		},
+		{			"level" : 1,
+			"base" : "DARKOAK"
+		},
+		{			"level" : 2,
+			"base" : "DARKHALL"
+		},
+		{
+			"level": 3,
+			"base" : "DARKHALL"
+		},
+		{
+			"level" : 4,
+			"base" : "SEWER"
+		}
+	]
+}

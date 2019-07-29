@@ -1,0 +1,11 @@
+{
+	"name" : "mjd:loot",
+	"inherit" : [
+		"mjd:loot0",
+		"mjd:loot1",
+		"mjd:loot2",
+		"mjd:loot3",
+		"mjd:loot4",
+		"mjd:loot_all"
+	]
+}

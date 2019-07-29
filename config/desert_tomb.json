@@ -1,0 +1,38 @@
+{
+	"exclusive" : true,
+	"name" : "desert_tomb",
+	"inherit" : [
+		"builtin:desert",
+		"mjd:loot",		"desert_tomb:ebw_loot"
+	],
+	"criteria" : {
+		"biomeTypes" : [
+			"SANDY"
+		],
+		"weight" : 1000
+	},	"tower" : {
+		"type" : "PYRAMID",
+		"theme" : {
+			"base" : "PYRAMID"
+		}
+	},
+	"themes" : [
+		{			"level" : 0,
+			"base" : "PYRAMID",
+		},
+		{			"level" : 1,
+			"base" : "PYRAMID",
+		},
+		{			"level" : 2,
+			"base" : "SANDSTONERED",
+		},
+		{
+			"level": 3,
+			"base" : "MOSSY",
+		},
+		{
+			"level" : 4,
+			"base" : "OAK",
+		}
+	]
+}

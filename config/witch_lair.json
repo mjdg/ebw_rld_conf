@@ -1,0 +1,37 @@
+{
+	"exclusive" : true,
+	"name" : "witch_lair",
+	"inherit" : [
+		"builtin:desert",
+		"mjd:loot",		"witch_lair:ebw_loot"	],
+	"criteria" : {
+		"biomeTypes" : [
+			"SWAMP"
+		],
+		"weight" : 1000
+	},	"tower" : {
+		"type" : "WITCH",
+		"theme" : {
+			"base" : "OAK"
+		}
+	},
+	"themes" : [
+		{			"level" : 0,
+			"base" : "OAK"
+		},
+		{			"level" : 1,
+			"base" : "MUDDY"
+		},
+		{			"level" : 2,
+			"base" : "MOSSY"
+		},
+		{
+			"level": 3,
+			"base" : "MOSSY"
+		},
+		{
+			"level" : 4,
+			"base" : "TEMPLE"
+		}
+	]
+}

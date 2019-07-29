@@ -1,0 +1,37 @@
+{
+	"exclusive" : true,
+	"name" : "volcano_lair",
+	"inherit" : [
+		"builtin:desert",
+		"mjd:loot",		"volcano_lair:ebw_loot"	],
+	"criteria" : {
+		"biomeTypes" : [
+			"MOUNTAIN", "HILLS"
+		],
+		"weight" : 1000
+	},	"tower" : {
+		"type" : "HOLE",
+		"theme" : {
+			"base" : "CAVE"
+		}
+	},
+	"themes" : [
+		{			"level" : 0,
+			"base" : "MINESHAFT"
+		},
+		{			"level" : 1,
+			"base" : "MINESHAFT"
+		},
+		{			"level" : 2,
+			"base" : "CAVE"
+		},
+		{
+			"level": 3,
+			"base" : "CAVE"
+		},
+		{
+			"level" : 4,
+			"base" : "NETHER"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"exclusive" : true,
+	"name" : "sorceror_tower",
+	"inherit" : [
+		"builtin:desert",
+		"mjd:loot",		"sorceror_tower:ebw_loot"	],
+	"criteria" : {
+		"biomeTypes" : [
+			"MESA"
+		],
+		"weight" : 1000
+	},	"tower" : {
+		"type" : "ENIKO",
+		"theme" : {
+			"base" : "ENIKO"
+		}
+	},	
+	"themes" : [
+		{			"level" : 0,
+			"base" : "PYRAMID"
+		},
+		{			"level" : 1,
+			"base" : "SANDSTONE"
+		},
+		{			"level" : 2,
+			"base" : "SANDSTONERED"
+		},
+		{
+			"level": 3,
+			"base" : "SANDSTONERED"
+		},
+		{
+			"level" : 4,
+			"base" : "ENDER"
+		}
+	]
+}
